@@ -1,0 +1,51 @@
+/* AddPerson.css */
+
+.add-person-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .add-person-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .add-person-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-person-container label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .add-person-container input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .add-person-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-person-container button:hover {
+    background-color: #0056b3;
+  }
+  
